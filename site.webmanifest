@@ -1,0 +1,13 @@
+{
+  "name": "VDOSTAL — Creative Content Agency",
+  "short_name": "VDOSTAL",
+  "description": "Video editing, motion design, social media visuals and AI content for businesses, experts and personal brands.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0C",
+  "theme_color": "#0B0B0C",
+  "icons": [
+    { "src": "/assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any" }
+  ]
+}

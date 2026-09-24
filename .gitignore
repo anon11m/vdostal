@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+.idea/
+
+# Large source media at the repo root — not part of the site (already exported to assets/)
+/Video/
+/Foto/
+/видео/
+/фото/
