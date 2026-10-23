@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vdostal.com/sitemap.xml
+Sitemap: https://anon11m.github.io/VVDOSTAL/sitemap.xml

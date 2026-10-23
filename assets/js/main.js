@@ -16,6 +16,9 @@
     document.querySelectorAll('[data-en-ph]').forEach(function(el){
       var v=el.getAttribute('data-'+lang+'-ph');if(v!=null)el.setAttribute('placeholder',v);
     });
+    document.querySelectorAll('[data-en-href]').forEach(function(el){
+      var v=el.getAttribute('data-'+lang+'-href');if(v!=null)el.setAttribute('href',v);
+    });
     var m=I18N_META[lang];
     if(m){document.title=m.title;var md=document.querySelector('meta[name="description"]');if(md)md.setAttribute('content',m.desc);}
     document.querySelectorAll('.lang-btn').forEach(function(b){
